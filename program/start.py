@@ -116,11 +116,11 @@ async def start(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "• 𝖲𝗈𝗎𝗋𝖼𝖾 𝖤𝗏𝖺𝗇 •", url=f"https://t.me/vrrrrvr"
+                    "‹ 𝖳𝗐𝗌 𝖡𝗈𝗍 ›", url=f"https://t.me/J45BoT"
                 ),
             ],
             [
-                InlineKeyboardButton("‹ 𝖳𝗐𝗌 𝖡𝗈𝗍 ›", url=f"https://t.me/J45BoT"),
+                InlineKeyboardButton("‹ 𝖣𝖾𝗏𝖤𝗏𝖺𝗇 𝖳𝖾𝖠𝗆 .", url=f"https://t.me/vrrrrvr"),
             ]
          ]
      )
@@ -142,7 +142,7 @@ async def help(client: Client, message: Message):
                 ),
             ],
             [
-                InlineKeyboardButton("السوࢪس", url=f"https://t.me/vrrrrvr"),
+                InlineKeyboardButton("‹ 𝖣𝖾𝗏𝖤𝗏𝖺𝗇 𝖳𝖾𝖠𝗆 .", url=f"https://t.me/vrrrrvr"),
             ]
          ]
      )
@@ -199,7 +199,7 @@ async def new_chat(c: Client, m: Message):
     for member in m.new_chat_members:
         if member.id == bot_id:
             return await m.reply(
-                "❤️ **شكرا لإضافتي إلى المجموعة !**\n\n"
+                "🗿🤍 **شكࢪا لإضافتي إلى المجموعة !**\n\n"
                 "قم بترقيتي كمسؤول عن المجموعة لكي أتمكن من العمل بشكل صحيح\nولا تنسى كتابة `/انضم` لدعوة الحساب المساعد\nقم بكتابة`/تحديث` لتحديث قائمة المشرفين",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -213,7 +213,7 @@ async def new_chat(c: Client, m: Message):
                         ],
                         [
                             InlineKeyboardButton(
-                        "‹ قناة السوࢪس ›",
+                        "‹ 𝖣𝖾𝗏𝖤𝗏𝖺𝗇 𝖳𝖾𝖠𝗆 .",
                         url=f'https://t.me/vrrrrvr'),
                         ],
                     ]
