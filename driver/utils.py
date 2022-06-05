@@ -17,13 +17,13 @@ from pytgcalls.types.stream import StreamAudioEnded
 keyboard = InlineKeyboardMarkup(
     [
             [
-                InlineKeyboardButton(text="• الـقـائـمـه تحكم♪", callback_data="cbmenu"),
-                InlineKeyboardButton("• الـتـحـديـثـات♪",url=f"https://t.me/J0KER_7x"),
+                InlineKeyboardButton(text="• قائمة التحكم •", callback_data="cbmenu"),
+                InlineKeyboardButton("• التحديثات •",url=f"https://t.me/J0KER_7x"),
             ],
             [
                 InlineKeyboardButton(
-                        "♡اضـف الـبـوت لـمـجـمـوعـتـك♡",
-                        url=f"https://t.me/Joker7x_bot?startgroup=true"
+                        "‹ 𝖣𝖾𝗏𝖤𝗏𝖺𝗇 𝖳𝖾𝖠𝗆 .",
+                        url=f"https://t.me/vrrrrvr"
                 )
             ],
         ]
